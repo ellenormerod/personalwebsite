@@ -1,0 +1,77 @@
+body {
+	text-align: center;
+  background-color: rgb(255, 254, 253);
+  font-family: 'Lora', serif;  
+}
+
+.flex {
+  display: flex;
+}
+
+/* visited link */
+a:visited {
+  color: #800002;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  box-sizing: border-box;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+section h1 {
+  text-align: center;
+  position: relative;
+  margin: 10px 0;
+  font-size: 90px;
+}
+section h2 {
+  text-align: center;
+  position: relative;
+  margin: 20px 0;
+}
+section .links {
+  font-size: 15px;
+}
+section a {
+  margin: 10px
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #252525;;
+  margin: 1em 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#about {
+  padding: 20px 20px 0 20px;
+}
+#about p {
+  flex: 3;
+}
+
+.footer {
+  width: 100vw;
+  padding: 10px;
+  background-color: #252525;
+  color: #fff;
+  bottom: 0;
+  position: absolute;
+}
+
+.footer .text {
+  position: relative;
+}
