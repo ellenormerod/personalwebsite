@@ -4,19 +4,28 @@ body {
   font-family: 'Lora', serif;  
 }
 
-.flex {
-  display: flex;
-}
-
 /* visited link */
 a:visited {
-  color: #800002;
+  color: #de9fa0;
 }
 
 /* mouse over link */
 a:hover {
   text-decoration: underline;
 }
+
+.flex {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .flex {
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 0 15px;
+  }
+}
+
 
 /* Sections */
 section {
@@ -34,21 +43,13 @@ section h1 {
 section h2 {
   text-align: center;
   position: relative;
-  margin: 20px 0;
+  margin: 90px 0;
 }
 section .links {
-  font-size: 15px;
+  font-size: 20px;
 }
 section a {
   margin: 10px
-}
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #252525;;
-  margin: 1em 0;
-  padding: 0;
 }
 
 a {
@@ -56,11 +57,35 @@ a {
   color: #000;
 }
 
+#title {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background-color: #252525;
+}
+
+#title #title-text {
+  position: absolute;
+  top: 15vh;
+  color: #fff;
+  text-shadow: 2px 2px #252525;
+  z-index: 1;
+}
+
+#title .links {
+  position: absolute;
+  top: 50vh;
+}
+
 #about {
   padding: 20px 20px 0 20px;
 }
 #about p {
   flex: 3;
+}
+
+#about h2 {
+  flex: 2;
 }
 
 
