@@ -63,13 +63,17 @@ a {
   flex: 3;
 }
 
+
+.list {
+  list-style-position: outside;
+  text-align: left;
+}
+
 .footer {
-  width: 100vw;
-  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
   background-color: #252525;
   color: #fff;
-  bottom: 0;
-  position: absolute;
 }
 
 .footer .text {
