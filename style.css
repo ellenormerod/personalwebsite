@@ -74,6 +74,7 @@ a {
 
 #title .links {
   position: absolute;
+  z-index: 10;
   top: 50vh;
 }
 
@@ -82,17 +83,33 @@ a {
 }
 #about p {
   flex: 3;
+  margin: 50px;
 }
 
 #about h2 {
   flex: 2;
+  margin: 40px 50px 0px 0px;
 }
 
+#technology .elements {
+  flex: 3;
+}
+
+#technology h2{
+  flex: 2;
+  margin: 40px 50px 0px 0px;
+}
 
 .list {
   list-style-position: outside;
   text-align: left;
 }
+
+#projects h2 {
+  flex: 2;
+  margin: 40px 50px 0px 0px;
+}
+
 
 .footer {
   display: flex;
