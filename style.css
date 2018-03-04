@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	text-align: center;
   background-color: rgb(255, 254, 253);
@@ -31,7 +35,7 @@ a:hover {
 section {
   box-sizing: border-box;
   position: relative;
-  width: 100vw;
+  width: 98vw;
   overflow: hidden;
 }
 section h1 {
@@ -41,15 +45,20 @@ section h1 {
   font-size: 90px;
 }
 section h2 {
-  text-align: center;
+  text-align: left;
   position: relative;
-  margin: 90px 0;
+  margin: 100px 0;
 }
 section .links {
   font-size: 20px;
 }
 section a {
   margin: 10px
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
 }
 
 a {
@@ -62,6 +71,10 @@ a {
   display: flex;
   justify-content: center;
   background-color: #252525;
+}
+
+#title h2 {
+  text-align: center;
 }
 
 #title #title-text {
@@ -82,21 +95,28 @@ a {
   padding: 20px 20px 0 20px;
 }
 #about p {
-  flex: 3;
+  flex: 2;
   margin: 50px;
 }
 
 #about h2 {
-  flex: 2;
+  flex: 1;
   margin: 40px 50px 0px 0px;
 }
 
+.elements {
+  position: relative;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-bottom: 17px;
+}
+
 #technology .elements {
-  flex: 3;
+  flex: 2;
 }
 
 #technology h2{
-  flex: 2;
+  flex: 1;
   margin: 40px 50px 0px 0px;
 }
 
@@ -105,11 +125,15 @@ a {
   text-align: left;
 }
 
-#projects h2 {
-  flex: 2;
+
+#education h2 {
+  flex: 1;
   margin: 40px 50px 0px 0px;
 }
 
+#education info {
+  flex: 2;
+}
 
 .footer {
   display: flex;
