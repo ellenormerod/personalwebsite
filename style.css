@@ -85,7 +85,6 @@ section h1 {
 section h2 {
   text-align: left;
   position: relative;
-  margin: 100px 0;
 }
 section .links {
   font-size: 20px;
@@ -102,6 +101,10 @@ ul {
 a {
   text-decoration: none;
   color: #000;
+}
+#title-text img {
+  height: 200px;
+  border-radius: 50%;
 }
 
 #title {
@@ -127,7 +130,7 @@ a {
 #title .links {
   position: absolute;
   z-index: 10;
-  top: 50vh;
+  top: 70vh;
 }
 
 #about {
