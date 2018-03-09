@@ -194,8 +194,13 @@ a {
   justify-content: space-evenly;
   background-color: #252525;
   color: #fff;
+  margin: 10px 0 0 0;
 }
 
 .footer .text {
   position: relative;
+}
+
+.text #extra {
+  font-size: 13px;
 }
