@@ -5,9 +5,15 @@
 body {
 	text-align: center;
   background-color: rgb(255, 254, 253);
-  font-family: 'Lora', serif;  
+  font-family: 'Lora', serif; 
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0; 
 }
-
+.links > a {
+  color: #de9fa0;
+}
 /* visited link */
 a:visited {
   color: #de9fa0;
@@ -35,12 +41,10 @@ a:hover {
 header {
   display: flex;
   position: fixed;
-  margin: 0 4em;
   padding: 10px;
-  width: calc(100vw - 8em);
+  width: 100vw;
   color: #fff;
-  background-color: rgba(37, 37, 37, 0.8);
-  border-radius: 0 0 1em 1em;
+  background-color: white;
   z-index: 100;
 }
 
@@ -55,7 +59,7 @@ header nav {
 
 .nav-item a {
   font-size: 1.3em;
-  color: #fff;
+  color: #252525;
   text-decoration: none;
   padding: 5px;
   border-radius: 5px;
@@ -203,4 +207,18 @@ a {
 
 .text #extra {
   font-size: 13px;
+}
+
+#project-title {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#project-title #project-text {
+  position: absolute;
+  top: 15vh;
+  color: #252525;
+  z-index: 1;
 }
