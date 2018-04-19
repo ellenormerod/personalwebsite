@@ -15,12 +15,12 @@ body {
   color: #de9fa0;
 }
 /* visited link */
-a:visited {
+.links a:visited {
   color: #de9fa0;
 }
 
 /* mouse over link */
-a:hover {
+.links a:hover {
   text-decoration: underline;
 }
 
@@ -112,7 +112,7 @@ a {
 }
 
 #title {
-  height: 90vh;
+  height: 95vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -210,10 +210,11 @@ a {
 }
 
 #project-title {
-  height: 90vh;
+  height: 43vh;
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: #f5e9e9;
 }
 
 #project-title #project-text {
@@ -221,4 +222,42 @@ a {
   top: 15vh;
   color: #252525;
   z-index: 1;
+  font-family: 'Satisfy', cursive;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.project-links img{
+  z-index: 1;
+  width: 350px;
+  height: 230px;
+  margin: 0 10px 0 0;
+  border: solid;
+}
+
+.project-list{
+  list-style-position: outside;
+  text-align: left;
+  margin: 0;
+}
+
+.project-links h2 {
+  z-index: 1;
+  position: absolute;
+  left: 110px;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+}
+
+.project-links #quietPlaces{
+  left: 160px;
+}
+
+.project-list p {
+  overflow-wrap: break-word;
 }
